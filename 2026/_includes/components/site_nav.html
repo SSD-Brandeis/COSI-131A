@@ -1,0 +1,38 @@
+<div class="logo-row">
+  <div class="logo">
+    <a href="{{ '/' | relative_url }}" class="site-title lh-tight">{% include title.html %}</a>
+  </div>
+  <button id="menu-button" class="site-button btn-reset" aria-label="Toggle menu" aria-pressed="false">
+    <svg viewBox="0 0 24 24" class="icon" aria-hidden="true">
+      <use xlink:href="#svg-menu"></use>
+    </svg>
+  </button>
+  </div>
+  <nav aria-label="Main" id="site-nav" class="site-nav">
+    <ul class="nav-list">
+      {%- for node in site.nav_external_links -%}
+      <li class="nav-list-item">
+        <a href="{{ node.url | absolute_url }}" class="nav-list-link site-button">
+          {{ node.title }}
+        </a>
+      </li>
+      {%- endfor -%}
+      <li class="nav-list-item">
+      <li class="dropdown">
+        <button class="dropbtn">Resources
+        </button>
+        <div class="dropdown-content">
+          <a href="{{ site.baseurl }}{{ site.syllabus }}" target="_blank">Syllabus</a>
+          <a href="{{ site.baseurl }}/resources">Textbooks</a>
+          <a href="{{ site.gradescope }}" target=”_blank”>GradeScope</a>
+          <a href="{{ site.piazza }}" target=”_blank”>Piazza</a>
+          <a href="{{ site.moodle }}" target=”_blank”>Moodle</a>
+        </div>
+      </li>
+      <li class="nav-list-item">
+        <a href="{{ site.baseurl }}/policies" class="nav-list-link site-button">
+          Policies
+        </a>
+      </li>
+    </ul>
+  </nav>

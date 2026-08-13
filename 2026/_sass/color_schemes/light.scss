@@ -1,0 +1,17 @@
+// COSI 131A palette: teal/amber "circuit" accent instead of the COSI-127B purple.
+$color-scheme: light !default;
+$body-background-color: $white !default;
+$body-heading-color: $grey-dk-300 !default;
+$body-text-color: $grey-dk-100 !default;
+$link-color: #0d9488 !default; // teal-600
+$nav-child-link-color: $grey-dk-100 !default;
+$sidebar-color: $grey-lt-000 !default;
+$base-button-color: #f7f7f7 !default;
+$btn-primary-color: #0f766e !default; // teal-700
+$code-background-color: $grey-lt-000 !default;
+$feedback-color: darken($sidebar-color, 3%) !default;
+$table-background-color: $white !default;
+$search-background-color: $white !default;
+$search-result-preview-color: $grey-dk-000 !default;
+
+@import "./vendor/OneLightJekyll/syntax";

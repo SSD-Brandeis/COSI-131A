@@ -1,0 +1,359 @@
+// The basic two column layout
+
+.side-bar {
+  z-index: 0;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: $sidebar-color;
+
+  @include mq(md) {
+    flex-flow: column nowrap;
+    position: fixed;
+    width: $nav-width-md;
+    height: 100%;
+    border-right: $border $border-color;
+    align-items: flex-end;
+  }
+
+  @include mq(lg) {
+    width: calc((100% - #{$nav-width + $content-width}) / 2 + #{$nav-width});
+    min-width: $nav-width;
+  }
+}
+
+.main {
+  @include mq(md) {
+    position: relative;
+    max-width: 100%;
+    margin-left: $nav-width-md;
+  }
+
+  @include mq(lg) {
+    // stylelint-disable function-name-case
+    // disable for Max(), we want to use the CSS max() function
+    margin-left: 0px;
+    // stylelint-enable function-name-case
+  }
+}
+
+.main-content-wrap {
+  margin-left: 3.5rem;
+  margin-right: 3.5rem;
+  padding-top: $gutter-spacing-sm;
+  padding-bottom: $gutter-spacing-sm;
+
+  @include mq(sm) {
+    margin-left: 6.5rem;
+    margin-right: 6.5rem;  
+  }
+
+  @include mq(md) {
+    margin-left: 9.5rem;
+    margin-right: 9.5rem;
+    padding-top: $gutter-spacing;
+    padding-bottom: $gutter-spacing;
+  }
+}
+
+.main-header {
+  z-index: 0;
+  display: flex;
+  background-color: $body-background-color;
+  position: relative;
+  width: auto;
+  justify-content: space-between;
+
+  @include mq(sm) {
+    display: flex;
+    margin-left: 6.5rem;
+    margin-right: 6.5rem;
+    // height: $header-height;
+    border-bottom: $border $border-color;
+  }
+
+  @include mq(md) {
+    margin-left: 9.5rem;
+    margin-right: 9.5rem;
+  }
+
+  &.nav-open {
+    display: block;
+    position: inherit;
+
+    @include mq(md) {
+      display: inline;
+    }
+  }
+}
+
+/* Banner Styles */
+// Circuit-board motif: a dark navy gradient with a repeating trace grid and
+// solder-point dots, generated entirely in CSS so no image asset is needed.
+$banner-bg-deep: #0b1524;
+$banner-bg-mid: #142338;
+$banner-trace-teal: rgba(45, 212, 191, 0.16);
+$banner-trace-amber: rgba(245, 158, 11, 0.12);
+$banner-node-teal: rgba(45, 212, 191, 0.55);
+
+.banner {
+  background-color: $banner-bg-deep;
+  background-image:
+    radial-gradient(circle at 20px 20px, $banner-node-teal 1.5px, transparent 1.6px),
+    repeating-linear-gradient(0deg, $banner-trace-teal 0px, $banner-trace-teal 1px, transparent 1px, transparent 40px),
+    repeating-linear-gradient(90deg, $banner-trace-amber 0px, $banner-trace-amber 1px, transparent 1px, transparent 40px),
+    linear-gradient(135deg, $banner-bg-deep 0%, $banner-bg-mid 55%, $banner-bg-deep 100%);
+  background-size: 40px 40px, 40px 40px, 40px 40px, cover;
+  background-position: center;
+  color: #fff;
+  padding: 100px 0; /* Adjust the padding to your liking */
+  text-align: center;
+}
+
+.banner h1 {
+  font-weight: 600;
+  font-size: 3.25rem !important;
+  font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+  letter-spacing: -0.02em;
+  margin-bottom: 0.5px;
+  color: #fff;
+
+  @include mq(md) {
+    font-weight: 600;
+    font-size: 4.25rem !important;
+  }
+}
+
+.banner p {
+  font-size: 1.5rem !important;
+  font-weight: 400;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  margin-bottom: 10px;
+  color: #fff;
+  margin-top: 0;
+
+  @include mq(md) {
+    font-weight: 400;
+    font-size: 1.75rem !important;
+  }
+}
+
+.banner .season-year {
+  color: $banner-node-teal;
+  font-family: 'JetBrains Mono', 'Fira Code', ui-monospace, SFMono-Regular, Menlo, Consolas, monospace;
+}
+
+.banner {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+  }
+
+  .external-links {
+    display: grid;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 0.5rem;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+
+    @include mq(sm) {
+      display: flex;
+      flex-direction: row;
+      }
+  }
+}
+
+.site-nav,
+.site-header,
+.site-footer {
+  width: 100%;
+
+  @include mq(md) {
+    width: $nav-width;
+  }
+}
+
+.site-nav {
+  display: none;
+
+  &.nav-open {
+    display: block;
+  }
+
+  @include mq(sm) {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    flex: 1 1 auto;
+    overflow: auto;
+  }
+}
+
+.site-header {
+  display: flex;
+  min-height: $header-height;
+  align-items: center;
+
+  @include mq(md) {
+    height: $header-height;
+    max-height: $header-height;
+    border-bottom: $border $border-color;
+  }
+}
+
+.site-title {
+  @include container;
+
+  flex-grow: 1;
+  display: flex;
+  height: 100%;
+  align-items: center;
+  color: $body-heading-color;
+  font-weight: 800;
+  
+  @include fs-6;
+
+  @include mq(sm) {
+    padding: 0% !important;
+  }
+}
+
+@if variable-exists(brandeislogo) and variable-exists(ssdlogo) {
+  .site-logo-container {
+    display: flex; 
+    align-items: center;
+    gap: 0rem;
+  }
+
+  .site-logo-brandeis {
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 9rem;
+    height: 4rem;
+    background-image: url($brandeislogo);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  .site-logo-ssd {
+    flex-shrink: 0;
+    flex-grow: 0;
+    width: 9rem;
+    height: 4rem;
+    background-image: url($ssdlogo);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+  }
+
+  @include mq(sm) {
+    .site-logo-brandeis {
+      width: 7rem;
+      height: 3rem;
+    } 
+    .site-logo-ssd {
+      width: 4rem;
+      height: 3.3rem;
+    }
+  }
+}
+
+
+.site-button {
+  display: flex;
+  height: 100%;
+  width: auto;
+  font-size: small;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: $sp-6;
+  align-items: center;
+  flex-direction: row-reverse;
+
+  .a {
+    text-align: end;
+  }
+
+  @include mq(sm) {
+    display: none;
+    font-size: medium;
+    font-weight: normal;
+    padding: $gutter-spacing;
+  }
+
+  @include mq(md) {
+    font-size: medium;
+    font-weight: bold;
+  }
+
+  @include mq(lg) {
+    font-weight: bold;
+  }
+}
+
+@include mq(sm) {
+  .site-header .site-button {
+    display: none;
+  }
+}
+
+.site-title:hover {
+  background-image: linear-gradient(
+    -90deg,
+    rgba($feedback-color, 1) 0%,
+    rgba($feedback-color, 0.8) 80%,
+    rgba($feedback-color, 0) 100%
+  );
+}
+
+.site-button:hover {
+  background-image: linear-gradient(
+    -90deg,
+    rgba($feedback-color, 1) 0%,
+    rgba($feedback-color, 0.8) 100%
+  );
+}
+
+// stylelint-disable selector-max-type
+
+body {
+  position: relative;
+  padding-bottom: $sp-10;
+  overflow-y: scroll;
+
+  @include mq(md) {
+    position: static;
+    padding-bottom: 0;
+  }
+}
+
+// stylelint-enable selector-max-type
+
+.site-footer {
+  @include container;
+
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  padding-top: $sp-4;
+  padding-bottom: $sp-4;
+  color: $grey-dk-000;
+  @include fs-2;
+
+  @include mq(md) {
+    position: static;
+    justify-self: end;
+  }
+}
+
+.icon {
+  width: $sp-5;
+  height: $sp-5;
+  color: $link-color;
+}

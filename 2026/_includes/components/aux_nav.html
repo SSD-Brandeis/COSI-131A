@@ -1,0 +1,36 @@
+
+  <nav aria-label="Auxiliary" class="aux-nav">
+    <!-- <a href="#" class="aux-nav-toggle">
+      <span class="aux-nav-toggle-bar"></span>
+      <span class="aux-nav-toggle-bar"></span>
+      <span class="aux-nav-toggle-bar"></span>
+    </a> -->
+  <ul class="aux-nav-list">
+      {% for link in site.aux_links %}
+        <li class="aux-nav-list-item">
+          <a href="{{ link.last }}" class="site-button"
+            {% if site.aux_links_new_tab %}
+            target="_blank" rel="noopener noreferrer"
+            {% endif %}
+          >
+            {{ link.first }}
+          </a>
+        </li>
+      {% endfor %}
+      </ul>
+
+  </nav>  
+
+<!-- <script>
+
+const auxNavToggle = document.querySelector('.aux-nav-toggle');
+  const navBarLinks = document.querySelector('.aux-nav-list-item');
+
+  // Check if elements exist before adding event listener
+  console.log("Adding action event")
+
+    auxNavToggle.addEventListener('click', () => {
+      console.log('clicked');
+      // navBarLinks.classList.toggle('active');
+    });
+</script> -->

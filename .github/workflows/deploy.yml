@@ -1,0 +1,76 @@
+name: Deploy Jekyll Sites to GitHub Pages
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Set Up Ruby Environment
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: "3.2"
+          bundler-cache: true
+
+      - name: Clean Build Directory
+        run: rm -rf _site && mkdir -p _site
+
+      - name: Build 2026 Site
+        run: |
+          bundle exec jekyll build \
+            --source "2026" \
+            --destination "./_site/2026" \
+            --baseurl "/COSI-131A/2026"
+        env:
+          JEKYLL_ENV: production
+
+      # When a new semester's folder is added (e.g. "2027"), copy the block
+      # above, swap the year in --source/--destination/--baseurl, and update
+      # the "Add Root Redirect" step below to point at the newest year.
+
+      - name: Add Root Redirect
+        run: |
+          echo '<!DOCTYPE html>
+          <html lang="en">
+          <head>
+            <meta http-equiv="refresh" content="0; url=/COSI-131A/2026/" />
+            <title>Redirecting...</title>
+          </head>
+          <body>
+            <p>If you are not redirected automatically, follow this <a href="/COSI-131A/2026/">link</a>.</p>
+          </body>
+          </html>' > ./_site/index.html
+
+      - name: List Combined Deployed Files
+        run: ls -R _site
+
+      - name: Upload Combined Site Artifacts
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: "./_site"
+          name: github-pages
+
+  deploy:
+    needs: build
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
+        with:
+          artifact_name: github-pages
