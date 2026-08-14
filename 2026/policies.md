@@ -16,7 +16,7 @@ banner_description: ""
     </div>
     <div class="policy">
         <h2><u>Contact Policy</u></h2>
-        <p>Moodle/Piazza will be the preferred mode of communication with the instructor and teaching assistants (TAs) outside of class hours and student hours. Posts in Moodle/Piazza will be responded to within 24 hours. Emails sent during weekdays should expect a response within 48 hours. Be aware that not receiving a response is not a valid reason to not hand in homework on time, so start your work early to make sure you have no questions. Throughout the course, students are encouraged to ask conceptual questions and start discussions through Moodle. Other students should feel free to answer any questions and participate in any discussions on Moodle. The instruction team will go through Moodle questions the same day that student hours are held.</p>
+        <p>Moodle will be the preferred mode of communication with the instructor and teaching assistants (TAs) outside of class hours and student hours. Posts in Moodle will be responded to within 24 hours. Emails sent during weekdays should expect a response within 48 hours. Be aware that not receiving a response is not a valid reason to not hand in homework on time, so start your work early to make sure you have no questions. Throughout the course, students are encouraged to ask conceptual questions and start discussions through Moodle. Other students should feel free to answer any questions and participate in any discussions on Moodle. The instruction team will go through Moodle questions the same day that student hours are held.</p>
     </div>
     <div class="policy">
         <h2><u>Accommodations</u></h2>

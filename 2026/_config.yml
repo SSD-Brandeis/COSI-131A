@@ -178,9 +178,8 @@ kramdown:
 
 # TODO: replace each of these with real links once available.
 # - syllabus: drop the PDF into assets/pdf/ and point to it (e.g. /assets/pdf/COSI131A-Fa26-Syllabus.pdf)
-# - piazza/gradescope/moodle: fill in once the Fall 2026 course sites/sections are created
+# - gradescope/moodle: fill in once the Fall 2026 course sites/sections are created
 syllabus: /assets/pdf/COSI131A-Fa26-Syllabus.pdf
-piazza: "#"
 gradescope: "#"
 moodle: "#"
 

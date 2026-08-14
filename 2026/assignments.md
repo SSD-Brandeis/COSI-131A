@@ -7,7 +7,7 @@ banner_heading: "Assignments"
 banner_description: ""
 ---
 
-<!-- TODO: replace the placeholder rows below with real assignments once Gradescope/Piazza links exist. -->
+<!-- TODO: replace the placeholder rows below with real assignments once Gradescope links exist. -->
 
 <div class="assignments">
     <div class="written">
