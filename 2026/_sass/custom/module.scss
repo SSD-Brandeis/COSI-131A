@@ -94,5 +94,26 @@
         }
       }
     }
+
+    // Very light per-unit tint so the schedule reads as grouped sections at
+    // a glance. Same tone on a row's dt and dd keeps the shading continuous
+    // across both grid columns.
+    $unit-tints: (
+      'u-hal': hsl(175, 45%, 96%),
+      'u-virt-cpu': hsl(35, 60%, 96%),
+      'u-scheduling': hsl(205, 55%, 96%),
+      'u-concurrency': hsl(150, 40%, 96%),
+      'u-virt-mem': hsl(265, 35%, 97%),
+      'u-c': hsl(340, 45%, 97%),
+      'u-persistence': hsl(25, 50%, 96%),
+      'u-review': hsl(220, 12%, 96%),
+    );
+
+    @each $slug, $tint in $unit-tints {
+      dt:has(> .#{$slug}),
+      dt:has(> .#{$slug}) + dd {
+        background-color: $tint;
+      }
+    }
   }
 }
