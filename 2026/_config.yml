@@ -176,12 +176,11 @@ kramdown:
     block:
       line_numbers: false
 
-# TODO: replace each of these with real links once available.
-# - syllabus: drop the PDF into assets/pdf/ and point to it (e.g. /assets/pdf/COSI131A-Fa26-Syllabus.pdf)
-# - gradescope/moodle: fill in once the Fall 2026 course sites/sections are created
+# TODO: replace the syllabus link once the PDF is dropped into assets/pdf/.
 syllabus: /assets/pdf/COSI131A-Fa26-Syllabus.pdf
-gradescope: "#"
-moodle: "#"
+gradescope: "https://www.gradescope.com"
+gradescope_code: "ZJ7D2R"
+moodle: "https://moodle.brandeis.edu/course/view.php?id=5754"
 
 # Collections for website data
 collections:

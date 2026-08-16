@@ -7,7 +7,9 @@ banner_heading: "Assignments"
 banner_description: ""
 ---
 
-<!-- TODO: replace the placeholder rows below with real assignments once Gradescope links exist. -->
+All assignments are submitted and graded on [Gradescope]({{ site.gradescope }}){:target="_blank"}. Enroll using access code: **{{ site.gradescope_code }}**
+
+<!-- TODO: replace the placeholder rows below with real assignments once individual Gradescope submission links exist. -->
 
 <div class="assignments">
     <div class="written">
