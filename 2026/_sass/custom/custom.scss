@@ -121,6 +121,43 @@ p {
   }
 }
 
+// .quick-facts
+.quick-facts {
+  display: block;
+  margin-bottom: $sp-5;
+
+  @include mq(sm) {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .quick-fact {
+    padding: $sp-4 $sp-5;
+    margin-bottom: $sp-4;
+    border: 1px solid $border-color;
+    border-left: 4px solid $link-color;
+    border-radius: 10px;
+    background-color: $feedback-color;
+
+    @include mq(sm) {
+      margin-bottom: 0;
+    }
+
+    h3 {
+      margin-top: 0;
+      margin-bottom: $sp-2;
+      font-size: 1.1rem;
+      color: $link-color;
+    }
+
+    p {
+      margin: 0;
+      font-size: medium;
+    }
+  }
+}
+
 .dropdown {
   background-color: $body-background-color;
   // margin-right: $sp-4;

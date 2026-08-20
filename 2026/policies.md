@@ -7,8 +7,6 @@ banner_heading: "Policies"
 banner_description: ""
 ---
 
-<!-- TODO: confirm Late Policy and Contact Policy against the official COSI 131A syllabus; carried over from COSI 127B as a starting point. -->
-
 <div class="policies">
     <div class="policy">
         <h2><u>Late Policy</u></h2>
@@ -16,11 +14,13 @@ banner_description: ""
     </div>
     <div class="policy">
         <h2><u>Contact Policy</u></h2>
-        <p>Moodle will be the preferred mode of communication with the instructor and teaching assistants (TAs) outside of class hours and student hours. Posts in Moodle will be responded to within 24 hours. Emails sent during weekdays should expect a response within 48 hours. Be aware that not receiving a response is not a valid reason to not hand in homework on time, so start your work early to make sure you have no questions. Throughout the course, students are encouraged to ask conceptual questions and start discussions through Moodle. Other students should feel free to answer any questions and participate in any discussions on Moodle. The instruction team will go through Moodle questions the same day that student hours are held.</p>
+        <p>Moodle will be the preferred mode of communication with the instructor and teaching assistants (TAs) outside of class hours and student hours. Posts on Moodle will be responded to within 24 hours. Throughout the course, students are encouraged to ask conceptual questions and start discussions on Moodle. Other students should feel free to answer any questions and participate in any discussions on Moodle. The teaching staff will go through the Moodle questions the same day that student hours are held.</p>
+        <p>Emails sent during weekdays should expect a response within 48 hours. Be aware that not receiving a response is not a valid reason to not hand in homework on time, so start your work early to make sure you have no questions.</p>
     </div>
     <div class="policy">
         <h2><u>Accommodations</u></h2>
-        <p><b>Brandeis seeks to create a learning environment that is welcoming and inclusive of all students, and I want to support you in your learning. If you think you may require disability accommodations, you will need to work with Student Accessibility Support (SAS). You can contact them at 781-736-3470, email them at [access@brandeis.edu](mailto:access@brandeis.edu), or visit the <a href="https://www.brandeis.edu/accessibility/index.html" target="_blank">Student Accessibility Support home page</a>. You can find helpful student FAQs and other resources on the SAS website, including guidance on how to know whether you might be eligible for support from SAS.</b></p>
+        <p>Brandeis seeks to create a learning environment that is welcoming and inclusive of all students, and I want to support you in your learning. If you think you may require disability accommodations, you will need to work with Student Accessibility Support (SAS). You can contact them at 781-736-3537, email them at <a href="mailto:access@brandeis.edu">access@brandeis.edu</a>, or visit the <a href="https://www.brandeis.edu/accessibility/index.html" target="_blank">Student Accessibility Support home page</a>. You can find helpful student FAQs and other resources on the SAS website, including guidance on how to know whether you might be eligible for support from SAS.</p>
+        <p>If you already have an accommodation letter from SAS, please provide me with a copy as soon as you can so that I can ensure effective implementation of accommodations for this class. In order to coordinate exam accommodations, ideally you should provide the accommodation letter at least 48 hours before an exam.</p>
     </div>
 </div>
 
@@ -34,4 +34,4 @@ Brandeis University is committed to providing its students, faculty, and staff w
 To create a focused and distraction-free learning environment, we have implemented a no laptop/mobile policy during the class. This policy is aimed at maximizing student engagement, fostering active participation, and promoting a conducive atmosphere for effective learning. By minimizing the use of laptops and mobile devices, we aim to enhance the overall quality of the learning experience and encourage direct interaction with course materials and fellow students.
 
 ## <u>Use Of Generative AI Tools</u>
-Faculty are encouraged to clearly explain course policies and procedures considering the use of ChatGPT and other generative AI tools. See the CTL Guidelines and examples of syllabi language for help or inspiration.
+The use of generative AI tools is not permitted in this course, specifically for completing the problem sets and programming assignments. Unauthorized use of generative AI will be treated as academic misconduct. The class is designed as highly interactive, with numerous in-class discussions and student hours every day of the week. Students are highly encouraged to participate in discussions during class and interact with the teaching staff during student hours – this is critical to build a sound understanding of the course material.

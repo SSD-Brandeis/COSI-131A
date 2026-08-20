@@ -178,7 +178,7 @@ kramdown:
 
 # TODO: replace the syllabus link once the PDF is dropped into assets/pdf/.
 syllabus: /assets/pdf/COSI131A-Fa26-Syllabus.pdf
-gradescope: "https://www.gradescope.com"
+gradescope: "https://www.gradescope.com/courses/1352485"
 gradescope_code: "ZJ7D2R"
 moodle: "https://moodle.brandeis.edu/course/view.php?id=5754"
 
