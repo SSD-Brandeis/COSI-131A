@@ -290,7 +290,7 @@
   height: 30px;
   margin-top: 6px;
   margin-bottom: -8px;
-  background-image: url('/COSI-127B/2026/assets/images/video.png');
+  background-image: url($slidesicon);
   background-size: cover;
   display: inline-block;
   background-repeat: no-repeat;
@@ -302,7 +302,7 @@
   height: 30px;
   margin-top: 6px;
   margin-bottom: -8px;
-  background-image: url('/COSI-127B/2026/assets/images/lec-icon.png');
+  background-image: url($lecslidesicon);
   background-size: cover;
   display: inline-block;
   background-repeat: no-repeat;

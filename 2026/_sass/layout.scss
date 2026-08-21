@@ -87,22 +87,16 @@
 }
 
 /* Banner Styles */
-// Circuit-board motif: a dark navy gradient with a repeating trace grid and
-// solder-point dots, generated entirely in CSS so no image asset is needed.
+// Illustrated hero: isometric CPU chip + memory racks + circuit board, in the
+// site's teal/amber palette. Source: assets/images/banner-systems.svg
 $banner-bg-deep: #0b1524;
 $banner-bg-mid: #142338;
-$banner-trace-teal: rgba(45, 212, 191, 0.16);
-$banner-trace-amber: rgba(245, 158, 11, 0.12);
 $banner-node-teal: rgba(45, 212, 191, 0.55);
 
 .banner {
   background-color: $banner-bg-deep;
-  background-image:
-    radial-gradient(circle at 20px 20px, $banner-node-teal 1.5px, transparent 1.6px),
-    repeating-linear-gradient(0deg, $banner-trace-teal 0px, $banner-trace-teal 1px, transparent 1px, transparent 40px),
-    repeating-linear-gradient(90deg, $banner-trace-amber 0px, $banner-trace-amber 1px, transparent 1px, transparent 40px),
-    linear-gradient(135deg, $banner-bg-deep 0%, $banner-bg-mid 55%, $banner-bg-deep 100%);
-  background-size: 40px 40px, 40px 40px, 40px 40px, cover;
+  background-image: url($bannerimage);
+  background-size: cover;
   background-position: center;
   color: #fff;
   padding: 100px 0; /* Adjust the padding to your liking */
