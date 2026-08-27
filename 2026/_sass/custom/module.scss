@@ -13,91 +13,52 @@
     }
   }
 
-  >dl {
-    border-bottom: $border $border-color;
-    border-top: $border $border-color;
-    display: grid;
-    grid-template-columns: max-content 1fr;
-    margin: $sp-2 (-$sp-4);
+  // Schedule table: Day / Lecture / Readings.
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: $sp-2 0;
 
-    &:first-child {
-      margin-top: 0;
-    }
-
-    &:last-child {
-      margin-bottom: 0;
-    }
-
-    @include mq(lg) {
-      grid-template-columns: 1fr 10fr;
-    }
-
-    %module-item {
-      margin: 0;
+    th,
+    td {
       padding: $sp-2;
+      text-align: left;
+      vertical-align: top;
 
       @include mq(sm) {
         padding: $sp-2 $sp-4;
       }
     }
 
-    >dt {
-      @extend %module-item;
-      border-top: $border $border-color;
-      font-weight: normal;
-      text-align: left;
-
-      +dd {
-        border-top: $border $border-color;
-      }
-
-      &:first-child {
-        border-top: none;
-
-        +dd {
-          border-top: none;
-        }
-      }
-
-      &::after {
-        content: " ";
-      }
+    thead th {
+      border-bottom: 2px solid $border-color;
+      font-weight: 700;
+      white-space: nowrap;
     }
 
-    >dd {
-      @extend %module-item;
+    tbody td {
+      border-top: $border $border-color;
+    }
 
-      +dd {
-        padding-top: 0;
-      }
+    tbody tr:first-child td {
+      border-top: none;
+    }
 
-      ol, ul, dl {
-        margin: 0;
-      }
+    .col-day {
+      white-space: nowrap;
+      width: 1%;
+    }
 
-      dl {
-        display: flex;
-        flex-direction: column;
+    .col-lecture {
+      width: 42%;
+    }
 
-        @include mq(sm) {
-          flex-direction: row;
-        }
-
-        dt {
-          // flex: 0 0 62.5%;
-          flex: 0 0 50%;
-          margin: 0;
-        }
-
-        dd {
-          margin: 0;
-        }
-      }
+    .col-readings {
+      width: 38%;
     }
 
     // Very light per-unit tint so the schedule reads as grouped sections at
-    // a glance. Same tone on a row's dt and dd keeps the shading continuous
-    // across both grid columns.
+    // a glance.
     $unit-tints: (
       'u-hal': hsl(175, 45%, 96%),
       'u-virt-cpu': hsl(35, 60%, 96%),
@@ -110,8 +71,7 @@
     );
 
     @each $slug, $tint in $unit-tints {
-      dt:has(> .#{$slug}),
-      dt:has(> .#{$slug}) + dd {
+      tr.#{$slug} {
         background-color: $tint;
       }
     }
