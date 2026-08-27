@@ -4,7 +4,7 @@ title: ""
 
 <span class="u-hal">Thu, Aug 27</span>
 : **Lecture 1:** Introduction to Computer Systems <br> *Unit: Hardware abstraction layer (HAL)*
-    : 
+    : - **Slides:** [Lecture 1 Slides](https://moodle.brandeis.edu/mod/resource/view.php?id=382807){:target="_blank"}
 
 <span class="u-hal">Tue, Sep 01</span>
 : **Lecture 2:** Machine Organization 1 (Part A)
