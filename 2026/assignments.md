@@ -7,7 +7,7 @@ banner_heading: "Assignments"
 banner_description: ""
 ---
 
-All assignments are submitted and graded on [Gradescope]({{ site.gradescope }}){:target="_blank"}. Enroll using access code: **{{ site.gradescope_code }}**
+All assignments are submitted and graded on [Gradescope]({{ site.gradescope }}){:target="_blank"}.
 
 <!-- TODO: replace the placeholder rows below with real assignments once individual Gradescope submission links exist. -->
 
