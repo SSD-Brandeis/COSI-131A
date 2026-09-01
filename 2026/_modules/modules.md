@@ -16,7 +16,7 @@ title: ""
 
 <tr class="u-hal">
 <td class="col-day">Tue, Sep 01</td>
-<td class="col-lecture"><strong>Lecture 2:</strong> Machine Organization 1 (Part A)<br><strong>Slides:</string> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=386282" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
+<td class="col-lecture"><strong>Lecture 2:</strong> Machine Organization 1 (Part A)<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=386282" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 1 (skip 1.3.2, 1.3.3, 1.8, 1.10)</td>
 </tr>
 
