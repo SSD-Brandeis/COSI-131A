@@ -22,7 +22,7 @@ title: ""
 
 <tr class="u-hal">
 <td class="col-day">Thu, Sep 03</td>
-<td class="col-lecture"><strong>Lecture 3:</strong> Machine Organization 1 (Part B)</td>
+<td class="col-lecture"><strong>Lecture 3:</strong> Machine Organization 1 (Part B)<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=387121" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 1 (skip 1.3.2, 1.3.3, 1.8, 1.10)</td>
 </tr>
 
