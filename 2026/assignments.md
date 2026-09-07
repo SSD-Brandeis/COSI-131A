@@ -13,7 +13,7 @@ All assignments are submitted and graded on [Gradescope]({{ site.gradescope }}){
 
 <div class="assignments">
     <div class="written">
-        <h4><strong>Homework Assignments</strong></h4>
+        <h4><strong>Problem Sets</strong></h4>
         <table>
         <thead>
             <tr>
@@ -24,9 +24,9 @@ All assignments are submitted and graded on [Gradescope]({{ site.gradescope }}){
         </thead>
         <tbody>
             <tr>
-            <td><a href="#" target="_blank">Homework 1</a></td>
-            <td>TBD</td>
-            <td><a href="#" target="_blank">TBD</a></td>
+            <td>PS1: Assembly</td>
+            <td>14 September 2026</td>
+            <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=387909" target="_blank">Material</a></td>
             </tr>
         </tbody>
         </table>
