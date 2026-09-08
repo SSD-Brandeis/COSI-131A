@@ -34,7 +34,7 @@ title: ""
 
 <tr class="u-hal">
 <td class="col-day">Tue, Sep 08</td>
-<td class="col-lecture"><strong>Lecture 4:</strong> Machine Organization 2</td>
+<td class="col-lecture"><strong>Lecture 4:</strong> Machine Organization 2<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=388197" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 2 (skip 2.8.3, 2.8.4, 2.8.5, 2.10)</td>
 </tr>
 
