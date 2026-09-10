@@ -9,8 +9,6 @@ banner_description: ""
 
 All assignments are submitted and graded on [Gradescope]({{ site.gradescope }}){:target="_blank"}.
 
-<!-- TODO: replace the placeholder rows below with real assignments once individual Gradescope submission links exist. -->
-
 <div class="assignments">
     <div class="written">
         <h4><strong>Problem Sets</strong></h4>
@@ -43,13 +41,13 @@ All assignments are submitted and graded on [Gradescope]({{ site.gradescope }}){
         </thead>
         <tbody>
             <tr>
-            <td><a href="#" target="_blank">Programming Assignment 1</a></td>
-            <td>TBD</td>
-            <td><a href="#" target="_blank">TBD</a></td>
+            <td>PA1A: A Unix-ish Shell</td>
+            <td>18 September 2026</td>
+            <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=388827" target="_blank">Material</a></td>
             </tr>
         </tbody>
         </table>
-        <h3><strong>Programming Assignment 1</strong></h3>
-        <p>TBD — description to be added once the assignment is finalized.</p>
+        <h3><strong>PA1A: A Unix-ish Shell</strong></h3>
+        <p>Write a simplified Unix shell — a command-line interpreter that lets users interact with the operating system through a set of commands, each an independent executable program. With just a handful of basic commands, your shell will support file system operations like reading and writing files and directories, searching file content, and combining commands into larger compound commands.</p>
     </div>
 </div>
