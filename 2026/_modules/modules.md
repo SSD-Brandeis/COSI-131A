@@ -39,6 +39,12 @@ title: ""
 </tr>
 
 <tr class="u-hal">
+<td class="col-day">Wed, Sep 09</td>
+<td class="col-lecture"><strong>Recitation 2: </strong><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=388848" target="_blank" rel="noopener"><i class="slides-icon" aria-label="Recitation Slides"></i></a></td>
+<td class="col-readings"></td>
+</tr>
+
+<tr class="u-hal">
 <td class="col-day">Thu, Sep 10</td>
 <td class="col-lecture"><span class="label label-yellow">Brandeis Day - Friday schedule</span></td>
 <td class="col-readings"></td>
