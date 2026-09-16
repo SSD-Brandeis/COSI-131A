@@ -10,13 +10,13 @@ title: ""
 
 <tr class="u-hal">
 <td class="col-day">Thu, Aug 27</td>
-<td class="col-lecture"><strong>Lecture 1:</strong> Introduction to Computer Systems<br><em>Unit: Hardware abstraction layer (HAL)</em><br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=382807" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
+<td class="col-lecture"><strong>Lecture 1:</strong> Welcome to COSI 131A<br><em>Unit: Hardware abstraction layer (HAL)</em><br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=382807" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"></td>
 </tr>
 
 <tr class="u-hal">
 <td class="col-day">Tue, Sep 01</td>
-<td class="col-lecture"><strong>Lecture 2:</strong> Machine Organization 1 (Part A)<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=386282" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
+<td class="col-lecture"><strong>Lecture 2:</strong> Machine Organization I<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=386282" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 1 (skip 1.3.2, 1.3.3, 1.8, 1.10)</td>
 </tr>
 
@@ -28,13 +28,13 @@ title: ""
 
 <tr class="u-hal">
 <td class="col-day">Thu, Sep 03</td>
-<td class="col-lecture"><strong>Lecture 3:</strong> Machine Organization 1 (Part B)<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=387121" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
+<td class="col-lecture"><strong>Lecture 3:</strong> Machine Organization II<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=387121" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 1 (skip 1.3.2, 1.3.3, 1.8, 1.10)</td>
 </tr>
 
 <tr class="u-hal">
 <td class="col-day">Tue, Sep 08</td>
-<td class="col-lecture"><strong>Lecture 4:</strong> Machine Organization 2<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=388197" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
+<td class="col-lecture"><strong>Lecture 4:</strong> Machine Organization III<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=388197" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 2 (skip 2.8.3, 2.8.4, 2.8.5, 2.10)</td>
 </tr>
 
@@ -50,16 +50,16 @@ title: ""
 <td class="col-readings"></td>
 </tr>
 
-<tr class="u-virt-cpu">
+<tr class="u-hal">
 <td class="col-day">Tue, Sep 15</td>
-<td class="col-lecture"><strong>Lecture 5:</strong> Machine Organization 2 + Kernel Abstraction, Processes and Threads (1)<br><em>Unit: Virtualization: CPU</em><br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=389834" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
-<td class="col-readings"><strong>OSC:</strong> Ch 3.1–3.7<br><strong>OSTEP:</strong> Ch 4, Ch 5, Ch 6</td>
+<td class="col-lecture"><strong>Lecture 5:</strong> Machine Organization IV<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=389834" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
+<td class="col-readings"><strong>OSC:</strong> Ch 2 (skip 2.8.3, 2.8.4, 2.8.5, 2.10)</td>
 </tr>
 
 <tr class="u-virt-cpu">
 <td class="col-day">Thu, Sep 17</td>
-<td class="col-lecture"><strong>Lecture 6:</strong> Kernel Abstraction, Processes and Threads (2)</td>
-<td class="col-readings"><strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 4, Ch 5, Ch 6</td>
+<td class="col-lecture"><strong>Lecture 6:</strong> Kernel Abstraction, Processes and Threads (1)<br><em>Unit: Virtualization: CPU</em></td>
+<td class="col-readings"><strong>OSC:</strong> Ch 3.1–3.7<br><strong>OSTEP:</strong> Ch 4, Ch 5, Ch 6</td>
 </tr>
 
 <tr class="u-virt-cpu">
