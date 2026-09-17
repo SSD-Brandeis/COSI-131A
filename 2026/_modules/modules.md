@@ -58,7 +58,7 @@ title: ""
 
 <tr class="u-virt-cpu">
 <td class="col-day">Thu, Sep 17</td>
-<td class="col-lecture"><strong>Lecture 6:</strong> Kernel Abstraction, Processes and Threads (1)<br><em>Unit: Virtualization: CPU</em></td>
+<td class="col-lecture"><strong>Lecture 6:</strong> Kernel Abstraction, Processes and Threads (1)<br><em>Unit: Virtualization: CPU</em><br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=390425" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 3.1–3.7<br><strong>OSTEP:</strong> Ch 4, Ch 5, Ch 6</td>
 </tr>
 
