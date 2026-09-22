@@ -64,7 +64,7 @@ title: ""
 
 <tr class="u-virt-cpu">
 <td class="col-day">Tue, Sep 22</td>
-<td class="col-lecture"><strong>Lecture 7:</strong> CPU Abstractions (Processes and Threads 2)</td> <!--<br><em>Unit: Virtualization: CPU</em>-->
+<td class="col-lecture"><strong>Lecture 7:</strong> Kernel Abstraction & Processes<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=391210" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td> <!--<br><em>Unit: Virtualization: CPU</em>-->
 <td class="col-readings"><strong>OSC:</strong> Ch 4.1–4.4 (skip 4.4.1, 4.4.2, 4.4.3.1), 4.6.1–4.6.3<br><strong>OSTEP:</strong> Ch 26, Ch 27</td>
 </tr>
 
