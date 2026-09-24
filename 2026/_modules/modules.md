@@ -70,9 +70,11 @@ title: ""
 
 <tr class="u-scheduling">
 <td class="col-day">Thu, Sep 24</td>
-<td class="col-lecture"><strong>Lecture 8:</strong> Scheduling (1)<br><em>Unit: CPU Scheduling</em></td>
-<td class="col-readings"><strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 7, Ch 8</td>
+<td class="col-lecture"><strong>Lecture 8:</strong>Processes & Threads<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=391800" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a> <!--<em>Unit: CPU Scheduling</em></td>-->
+<td class="col-readings"><strong>OSC:</strong> Ch 4.1–4.4 (skip 4.4.1, 4.4.2, 4.4.3.1), 4.6.1–4.6.3<br><strong>OSTEP:</strong> Ch 26, Ch 27</td>
 </tr>
+
+<!-- <strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 7, Ch 8</td> -->
 
 <tr class="u-scheduling">
 <td class="col-day">Tue, Sep 29</td>
