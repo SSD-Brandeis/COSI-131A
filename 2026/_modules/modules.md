@@ -68,6 +68,12 @@ title: ""
 <td class="col-readings"><strong>OSC:</strong> Ch 4.1–4.4 (skip 4.4.1, 4.4.2, 4.4.3.1), 4.6.1–4.6.3<br><strong>OSTEP:</strong> Ch 26, Ch 27</td>
 </tr>
 
+<tr class="u-virt-cpu">
+<td class="col-day">Wed, Sep 23</td>
+<td class="col-lecture"><strong>Recitation: </strong><a href="https://moodle.brandeis.edu/mod/url/view.php?id=392152" target="_blank" rel="noopener"><i class="slides-icon" aria-label="Recitation Slides"></i></a></td>
+<td class="col-readings"></td>
+</tr>
+
 <tr class="u-scheduling">
 <td class="col-day">Thu, Sep 24</td>
 <td class="col-lecture"><strong>Lecture 8:</strong>Processes & Threads<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=391800" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td> <!--<em>Unit: CPU Scheduling</em>-->

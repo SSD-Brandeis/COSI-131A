@@ -45,6 +45,11 @@ All assignments are submitted and graded on [Gradescope]({{ site.gradescope }}){
             <td>18 September 2026</td>
             <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=388827" target="_blank">Material</a></td>
             </tr>
+            <tr>
+            <td>PA1B: A Unix-ish Shell</td>
+            <td>8 October 2026</td>
+            <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=391439" target="_blank">Material</a></td>
+            </tr>
         </tbody>
         </table>
         <h3><strong>PA1A: A Unix-ish Shell</strong></h3>
