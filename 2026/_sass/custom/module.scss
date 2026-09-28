@@ -75,5 +75,10 @@
         background-color: $tint;
       }
     }
+
+tr.recitation,
+tr.recitation td {
+  background-color: hsl(0, 0%, 95%);
+}
   }
 }

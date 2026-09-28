@@ -10,7 +10,7 @@ title: ""
 
 <tr class="u-hal">
 <td class="col-day">Thu, Aug 27</td>
-<td class="col-lecture"><strong>Lecture 1:</strong> Welcome to COSI 131A<br><em>Unit: Hardware abstraction layer (HAL)</em><br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=382807" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
+<td class="col-lecture"><strong>Lecture 1:</strong> Welcome to COSI 131A<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=382807" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"></td>
 </tr>
 
@@ -20,7 +20,7 @@ title: ""
 <td class="col-readings"><strong>OSC:</strong> Ch 1 (skip 1.3.2, 1.3.3, 1.8, 1.10)</td>
 </tr>
 
-<tr class="u-hal">
+<tr class="u-hal recitation">
 <td class="col-day">Wed, Sep 02</td>
 <td class="col-lecture"><strong>Recitation: </strong><a href="https://moodle.brandeis.edu/mod/url/view.php?id=387900" target="_blank" rel="noopener"><i class="slides-icon" aria-label="Recitation Slides"></i></a></td>
 <td class="col-readings"></td>
@@ -38,7 +38,7 @@ title: ""
 <td class="col-readings"><strong>OSC:</strong> Ch 2 (skip 2.8.3, 2.8.4, 2.8.5, 2.10)</td>
 </tr>
 
-<tr class="u-hal">
+<tr class="u-hal recitation">
 <td class="col-day">Wed, Sep 09</td>
 <td class="col-lecture"><strong>Recitation: </strong><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=388848" target="_blank" rel="noopener"><i class="slides-icon" aria-label="Recitation Slides"></i></a></td>
 <td class="col-readings"></td>
@@ -64,11 +64,11 @@ title: ""
 
 <tr class="u-virt-cpu">
 <td class="col-day">Tue, Sep 22</td>
-<td class="col-lecture"><strong>Lecture 7:</strong> Kernel Abstraction & Processes<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=391210" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td> <!--<br><em>Unit: Virtualization: CPU</em>-->
+<td class="col-lecture"><strong>Lecture 7:</strong> Kernel Abstraction & Processes<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=391210" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 4.1–4.4 (skip 4.4.1, 4.4.2, 4.4.3.1), 4.6.1–4.6.3<br><strong>OSTEP:</strong> Ch 26, Ch 27</td>
 </tr>
 
-<tr class="u-virt-cpu">
+<tr class="u-virt-cpu recitation">
 <td class="col-day">Wed, Sep 23</td>
 <td class="col-lecture"><strong>Recitation: </strong><a href="https://moodle.brandeis.edu/mod/url/view.php?id=392152" target="_blank" rel="noopener"><i class="slides-icon" aria-label="Recitation Slides"></i></a></td>
 <td class="col-readings"></td>
@@ -76,33 +76,31 @@ title: ""
 
 <tr class="u-scheduling">
 <td class="col-day">Thu, Sep 24</td>
-<td class="col-lecture"><strong>Lecture 8:</strong>Processes & Threads<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=391800" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td> <!--<em>Unit: CPU Scheduling</em>-->
+<td class="col-lecture"><strong>Lecture 8:</strong>Processes & Threads<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=391800" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 4.1–4.4 (skip 4.4.1, 4.4.2, 4.4.3.1), 4.6.1–4.6.3<br><strong>OSTEP:</strong> Ch 26, Ch 27</td>
 </tr>
 
-<!-- <strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 7, Ch 8</td> -->
-
 <tr class="u-scheduling">
 <td class="col-day">Tue, Sep 29</td>
-<td class="col-lecture"><strong>Lecture 9:</strong> Scheduling (2)</td>
+<td class="col-lecture"><strong>Lecture 9:</strong> Scheduling (1)</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 7, Ch 8</td>
+</tr>
+
+<tr class="u-scheduling">
+<td class="col-day">Thu, Oct 01</td>
+<td class="col-lecture"><strong>Lecture 10:</strong> Scheduling (2)</td>
 <td class="col-readings"><strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 7, Ch 8</td>
 </tr>
 
 <tr class="u-concurrency">
-<td class="col-day">Thu, Oct 01</td>
-<td class="col-lecture"><strong>Lecture 10:</strong> Synchronization 1: Concurrency and shared data, Back to HAL (TAS)<br><em>Unit: Concurrency</em></td>
+<td class="col-day">Tue, Oct 06</td>
+<td class="col-lecture"><strong>Lecture 11:</strong> Synchronization 1: Concurrency and shared data, Back to HAL (TAS)</td>
 <td class="col-readings"><strong>OSC:</strong> Ch 6<br><strong>OSTEP:</strong> Ch 26, Ch 28</td>
 </tr>
 
 <tr class="u-concurrency">
-<td class="col-day">Tue, Oct 06</td>
-<td class="col-lecture"><strong>Lecture 11:</strong> Synchronization 2: Methodology: Shared concurrent objects</td>
-<td class="col-readings"><strong>OSC:</strong> Ch 6<br><strong>OSTEP:</strong> Ch 28, Ch 29</td>
-</tr>
-
-<tr class="u-concurrency">
 <td class="col-day">Thu, Oct 08</td>
-<td class="col-lecture"><strong>Lecture 12:</strong> Synchronization 3: Java Default Synchronization</td>
+<td class="col-lecture"><strong>Lecture 12:</strong> Synchronization 2: Methodology: Shared concurrent objects</td>
 <td class="col-readings"><strong>OSC:</strong> Ch 6<br><strong>OSTEP:</strong> Ch 28, Ch 29</td>
 </tr>
 
@@ -112,76 +110,76 @@ title: ""
 <td class="col-readings"></td>
 </tr>
 
-<tr class="u-concurrency">
+<tr class="u-review">
 <td class="col-day">Thu, Oct 15</td>
-<td class="col-lecture"><strong>Lecture 13:</strong> Synchronization (4): Java general Locks and R&amp;W problem</td>
-<td class="col-readings"><strong>OSC:</strong> Ch 6<br><strong>OSTEP:</strong> Ch 30, Ch 29</td>
+<td class="col-lecture"><span class="label label-purple">Midterm I</span></td>
+<td class="col-readings"></td>
 </tr>
 
 <tr class="u-concurrency">
 <td class="col-day">Tue, Oct 20</td>
-<td class="col-lecture"><strong>Lecture 14:</strong> Synchronization (5): Multiprocessors, Spinlocks, Performance</td>
+<td class="col-lecture"><strong>Lecture 13:</strong> Synchronization 3: Java Default Synchronization</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 6<br><strong>OSTEP:</strong> Ch 28, Ch 29</td>
+</tr>
+
+<tr class="u-concurrency">
+<td class="col-day">Thu, Oct 22</td>
+<td class="col-lecture"><strong>Lecture 14:</strong> Synchronization (4): Java general Locks and R&amp;W problem</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 6<br><strong>OSTEP:</strong> Ch 30, Ch 29</td>
+</tr>
+
+<tr class="u-concurrency">
+<td class="col-day">Tue, Oct 27</td>
+<td class="col-lecture"><strong>Lecture 15:</strong> Synchronization (5): Multiprocessors, Spinlocks, Performance</td>
 <td class="col-readings"><strong>OSC:</strong> Ch 6<br><strong>OSTEP:</strong> Ch 10, Ch 28</td>
 </tr>
 
 <tr class="u-virt-mem">
-<td class="col-day">Thu, Oct 22</td>
-<td class="col-lecture"><strong>Lecture 15:</strong> Synchronization (6): Deadlock + Memory Management (1)<br><em>Unit: Virtualization: Memory</em></td>
+<td class="col-day">Thu, Oct 29</td>
+<td class="col-lecture"><strong>Lecture 16:</strong> Synchronization (6): Deadlock + Memory Management (1)</td>
 <td class="col-readings"><strong>OSC:</strong> Ch 7 Sec 4, Ch 8 / Ch 9 (skip 9.4.2–9.4.4, 9.6)<br><strong>OSTEP:</strong> Ch 32 / Ch 9 (skip 9.4.2–9.4.4, 9.6)</td>
 </tr>
 
 <tr class="u-virt-mem">
-<td class="col-day">Tue, Oct 27</td>
-<td class="col-lecture"><strong>Lecture 16:</strong> Memory Management (2)</td>
+<td class="col-day">Tue, Nov 03</td>
+<td class="col-lecture"><strong>Lecture 17:</strong> Memory Management (2)</td>
 <td class="col-readings"><strong>OSC:</strong> Ch 9 (skip 9.4.2–9.4.4, 9.6)<br><strong>OSTEP:</strong> Ch 16, Ch 17</td>
 </tr>
 
 <tr class="u-virt-mem">
-<td class="col-day">Thu, Oct 29</td>
-<td class="col-lecture"><strong>Lecture 17:</strong> Virtual Memory (1)</td>
+<td class="col-day">Thu, Nov 05</td>
+<td class="col-lecture"><strong>Lecture 18:</strong> Virtual Memory (1)</td>
 <td class="col-readings"><strong>OSC:</strong> Ch 10 (skip 10.4.5.2–10.4.8, 10.5.4, 10.7–end)<br><strong>OSTEP:</strong> Ch 15, Ch 18, Ch 19, Ch 20, Ch 21–22, Ch 23</td>
 </tr>
 
 <tr class="u-c">
-<td class="col-day">Tue, Nov 03</td>
-<td class="col-lecture"><strong>Lecture 18:</strong> C Basics: Translating Java to C (1)<br><em>Unit: C</em></td>
+<td class="col-day">Tue, Nov 10</td>
+<td class="col-lecture"><strong>Lecture 19:</strong> C Basics: Translating Java to C (1)</td>
 <td class="col-readings"></td>
 </tr>
 
 <tr class="u-c">
-<td class="col-day">Thu, Nov 05</td>
-<td class="col-lecture"><strong>Lecture 19:</strong> C Basics: Safety Risks and mitigations</td>
-<td class="col-readings"></td>
-</tr>
-
-<tr class="u-persistence">
-<td class="col-day">Tue, Nov 10</td>
-<td class="col-lecture"><strong>Lecture 20:</strong> Persistence (1): File Systems and Disk<br><em>Unit: Persistence</em></td>
-<td class="col-readings"><strong>OSC:</strong> Ch 11 (skip 11.4–end)<br><strong>OSTEP:</strong> Ch 37, Ch 39, Ch 40</td>
-</tr>
-
-<tr class="u-persistence">
 <td class="col-day">Thu, Nov 12</td>
-<td class="col-lecture"><strong>Lecture 21:</strong> Persistence (2): Disk organization and File system data structures</td>
-<td class="col-readings"><strong>OSC:</strong> Ch 11 (skip 11.4–end)<br><strong>OSTEP:</strong> Ch 40, Ch 41, Ch 42</td>
+<td class="col-lecture"><strong>Lecture 20:</strong> C Basics: Safety Risks and mitigations</td>
+<td class="col-readings"></td>
 </tr>
 
 <tr class="u-persistence">
 <td class="col-day">Tue, Nov 17</td>
-<td class="col-lecture"><strong>Lecture 22:</strong> Persistence (3): Naming</td>
-<td class="col-readings"></td>
+<td class="col-lecture"><strong>Lecture 21:</strong> Persistence (1): File Systems and Disk</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 11 (skip 11.4–end)<br><strong>OSTEP:</strong> Ch 37, Ch 39, Ch 40</td>
 </tr>
 
 <tr class="u-persistence">
 <td class="col-day">Thu, Nov 19</td>
-<td class="col-lecture"><strong>Lecture 23:</strong> Persistence (4): Crash Consistency, Recovery, Transactions</td>
-<td class="col-readings"><strong>OSC:</strong> Ch 13 (skip 13.3.3–end)<br><strong>OSTEP:</strong> Ch 42, Ch 45</td>
+<td class="col-lecture"><strong>Lecture 22:</strong> Persistence (2): Disk organization and File system data structures</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 11 (skip 11.4–end)<br><strong>OSTEP:</strong> Ch 40, Ch 41, Ch 42</td>
 </tr>
 
 <tr class="u-persistence">
 <td class="col-day">Tue, Nov 24</td>
-<td class="col-lecture"><strong>Lecture 24:</strong> Virtual Machines</td>
-<td class="col-readings"><strong>OSC:</strong> Ch 14.4–14.7.1<br><strong>OSTEP:</strong> Appendix: Virtual Machines</td>
+<td class="col-lecture"><strong>Lecture 23:</strong> Persistence (3): Naming</td>
+<td class="col-readings"></td>
 </tr>
 
 <tr class="u-persistence">
@@ -190,10 +188,10 @@ title: ""
 <td class="col-readings"></td>
 </tr>
 
-<tr class="u-review">
+<tr class="u-persistence">
 <td class="col-day">Tue, Dec 01</td>
-<td class="col-lecture"><strong>Lecture 25:</strong> Review<br><em>Unit: Review</em></td>
-<td class="col-readings"></td>
+<td class="col-lecture"><strong>Lecture 24:</strong> Persistence (4): Crash Consistency, Recovery, Transactions</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 13 (skip 13.3.3–end)<br><strong>OSTEP:</strong> Ch 42, Ch 45</td>
 </tr>
 
 <tr class="u-review">
