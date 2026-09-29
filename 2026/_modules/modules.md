@@ -82,7 +82,7 @@ title: ""
 
 <tr class="u-scheduling">
 <td class="col-day">Tue, Sep 29</td>
-<td class="col-lecture"><strong>Lecture 9:</strong> Scheduling (1)</td>
+<td class="col-lecture"><strong>Lecture 9:</strong> Scheduling (1)<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=392801" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 7, Ch 8</td>
 </tr>
 
@@ -112,7 +112,7 @@ title: ""
 
 <tr class="u-review">
 <td class="col-day">Thu, Oct 15</td>
-<td class="col-lecture"><span class="label label-purple">Midterm I</span></td>
+<td class="col-lecture"><span class="label label-purple">Quiz I</span></td>
 <td class="col-readings"></td>
 </tr>
 
