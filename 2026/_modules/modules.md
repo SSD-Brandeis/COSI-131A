@@ -86,6 +86,12 @@ title: ""
 <td class="col-readings"><strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 7, Ch 8</td>
 </tr>
 
+<tr class="u-scheduling recitation">
+<td class="col-day">Wed, Sep 30</td>
+<td class="col-lecture"><strong>Recitation: </strong><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=393286" target="_blank" rel="noopener"><i class="slides-icon" aria-label="Recitation Slides"></i></a></td>
+<td class="col-readings"></td>
+</tr>
+
 <tr class="u-scheduling">
 <td class="col-day">Thu, Oct 01</td>
 <td class="col-lecture"><strong>Lecture 10:</strong> Scheduling (2)</td>

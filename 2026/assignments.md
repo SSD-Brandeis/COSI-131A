@@ -26,6 +26,11 @@ All assignments are submitted and graded on [Gradescope]({{ site.gradescope }}){
             <td>14 September 2026</td>
             <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=387909" target="_blank">Material</a></td>
             </tr>
+            <tr>
+            <td>PS2: Interrupts & CPU Scheduling</td>
+            <td>7 October 2026</td>
+            <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=393271" target="_blank">Material</a></td>
+            </tr>
         </tbody>
         </table>
     </div>
