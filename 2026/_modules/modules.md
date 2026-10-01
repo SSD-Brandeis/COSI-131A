@@ -94,7 +94,7 @@ title: ""
 
 <tr class="u-scheduling">
 <td class="col-day">Thu, Oct 01</td>
-<td class="col-lecture"><strong>Lecture 10:</strong> Scheduling (2)</td>
+<td class="col-lecture"><strong>Lecture 10:</strong> CPU Scheduling II<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=393477" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 7, Ch 8</td>
 </tr>
 
