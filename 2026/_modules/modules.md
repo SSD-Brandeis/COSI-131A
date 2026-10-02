@@ -53,13 +53,13 @@ title: ""
 <tr class="u-hal">
 <td class="col-day">Tue, Sep 15</td>
 <td class="col-lecture"><strong>Lecture 5:</strong> Machine Organization IV<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=389834" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
-<td class="col-readings"><strong>OSC:</strong> Ch 2 (skip 2.8.3, 2.8.4, 2.8.5, 2.10)</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 3.1–3.7<br><strong>OSTEP:</strong> Ch 4, Ch 5, Ch 6</td>
 </tr>
 
 <tr class="u-virt-cpu">
 <td class="col-day">Thu, Sep 17</td>
 <td class="col-lecture"><strong>Lecture 6:</strong>Machine Organization V<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=390425" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
-<td class="col-readings"><strong>OSC:</strong> Ch 3.1–3.7<br><strong>OSTEP:</strong> Ch 4, Ch 5, Ch 6</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 4, Ch 5, Ch 6</td>
 </tr>
 
 <tr class="u-virt-cpu">
@@ -77,12 +77,12 @@ title: ""
 <tr class="u-scheduling">
 <td class="col-day">Thu, Sep 24</td>
 <td class="col-lecture"><strong>Lecture 8:</strong>Processes & Threads<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=391800" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
-<td class="col-readings"><strong>OSC:</strong> Ch 4.1–4.4 (skip 4.4.1, 4.4.2, 4.4.3.1), 4.6.1–4.6.3<br><strong>OSTEP:</strong> Ch 26, Ch 27</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 7, Ch 8</td>
 </tr>
 
 <tr class="u-scheduling">
 <td class="col-day">Tue, Sep 29</td>
-<td class="col-lecture"><strong>Lecture 9:</strong> Scheduling (1)<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=392801" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
+<td class="col-lecture"><strong>Lecture 9:</strong> Scheduling I<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=392801" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 7, Ch 8</td>
 </tr>
 
@@ -100,8 +100,8 @@ title: ""
 
 <tr class="u-concurrency">
 <td class="col-day">Tue, Oct 06</td>
-<td class="col-lecture"><strong>Lecture 11:</strong> Synchronization 1: Concurrency and shared data, Back to HAL (TAS)</td>
-<td class="col-readings"><strong>OSC:</strong> Ch 6<br><strong>OSTEP:</strong> Ch 26, Ch 28</td>
+<td class="col-lecture"><strong>Lecture 11:</strong> Processes & Threads</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 7, Ch 8</td>
 </tr>
 
 <tr class="u-concurrency">
