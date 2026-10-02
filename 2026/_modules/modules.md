@@ -17,7 +17,7 @@ title: ""
 <tr class="u-hal">
 <td class="col-day">Tue, Sep 01</td>
 <td class="col-lecture"><strong>Lecture 2:</strong> Machine Organization I<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=386282" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
-<td class="col-readings"><strong>OSC:</strong> Ch 1 (skip 1.3.2, 1.3.3, 1.8, 1.10)</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 1 (skip 1.3.2, 1.3.3, 1.8, 1.10)<br><strong>OSTEP:</strong> Ch 2</td>
 </tr>
 
 <tr class="u-hal recitation">
@@ -29,13 +29,13 @@ title: ""
 <tr class="u-hal">
 <td class="col-day">Thu, Sep 03</td>
 <td class="col-lecture"><strong>Lecture 3:</strong> Machine Organization II<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=387121" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
-<td class="col-readings"><strong>OSC:</strong> Ch 1 (skip 1.3.2, 1.3.3, 1.8, 1.10)</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 1 (skip 1.3.2, 1.3.3, 1.8, 1.10)<br><strong>OSTEP:</strong> Ch 2</td>
 </tr>
 
 <tr class="u-hal">
 <td class="col-day">Tue, Sep 08</td>
 <td class="col-lecture"><strong>Lecture 4:</strong> Machine Organization III<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=388197" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
-<td class="col-readings"><strong>OSC:</strong> Ch 2 (skip 2.8.3, 2.8.4, 2.8.5, 2.10)</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 2 (skip 2.8.3, 2.8.4, 2.8.5, 2.10)<br><strong>OSTEP:</strong> Ch 2</td>
 </tr>
 
 <tr class="u-hal recitation">
@@ -53,19 +53,19 @@ title: ""
 <tr class="u-hal">
 <td class="col-day">Tue, Sep 15</td>
 <td class="col-lecture"><strong>Lecture 5:</strong> Machine Organization IV<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=389834" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
-<td class="col-readings"><strong>OSC:</strong> Ch 3.1–3.7<br><strong>OSTEP:</strong> Ch 4, Ch 5, Ch 6</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 2 (skip 2.8.3, 2.8.4, 2.8.5, 2.10)<br><strong>OSTEP:</strong> Ch 36</td>
 </tr>
 
 <tr class="u-virt-cpu">
 <td class="col-day">Thu, Sep 17</td>
 <td class="col-lecture"><strong>Lecture 6:</strong>Machine Organization V<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=390425" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
-<td class="col-readings"><strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 4, Ch 5, Ch 6</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 2 (skip 2.8.3, 2.8.4, 2.8.5, 2.10)<br><strong>OSTEP:</strong> Ch 37, Ch 44</td>
 </tr>
 
 <tr class="u-virt-cpu">
 <td class="col-day">Tue, Sep 22</td>
 <td class="col-lecture"><strong>Lecture 7:</strong> Kernel Abstraction & Processes<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=391210" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
-<td class="col-readings"><strong>OSC:</strong> Ch 4.1–4.4 (skip 4.4.1, 4.4.2, 4.4.3.1), 4.6.1–4.6.3<br><strong>OSTEP:</strong> Ch 26, Ch 27</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 4.1–4.4 (skip 4.4.1, 4.4.2, 4.4.3.1), 4.6.1–4.6.3<br><strong>OSTEP:</strong> Ch 4, Ch 5</td>
 </tr>
 
 <tr class="u-virt-cpu recitation">
@@ -77,13 +77,13 @@ title: ""
 <tr class="u-scheduling">
 <td class="col-day">Thu, Sep 24</td>
 <td class="col-lecture"><strong>Lecture 8:</strong>Processes & Threads<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=391800" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
-<td class="col-readings"><strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 7, Ch 8</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 3.1–3.7<br><strong>OSTEP:</strong> Ch 4, Ch 5, Ch 13</td>
 </tr>
 
 <tr class="u-scheduling">
 <td class="col-day">Tue, Sep 29</td>
-<td class="col-lecture"><strong>Lecture 9:</strong> Scheduling I<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=392801" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
-<td class="col-readings"><strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 7, Ch 8</td>
+<td class="col-lecture"><strong>Lecture 9:</strong> CPU Scheduling<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=392801" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
+<td class="col-readings"><strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 7</td>
 </tr>
 
 <tr class="u-scheduling recitation">
@@ -95,13 +95,13 @@ title: ""
 <tr class="u-scheduling">
 <td class="col-day">Thu, Oct 01</td>
 <td class="col-lecture"><strong>Lecture 10:</strong> CPU Scheduling II<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=393477" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
-<td class="col-readings"><strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 7, Ch 8</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 8, Ch 9, Ch 10</td>
 </tr>
 
 <tr class="u-concurrency">
 <td class="col-day">Tue, Oct 06</td>
 <td class="col-lecture"><strong>Lecture 11:</strong> Processes & Threads</td>
-<td class="col-readings"><strong>OSC:</strong> Ch 5.1–5.3, 5.8.1–5.8.2<br><strong>OSTEP:</strong> Ch 7, Ch 8</td>
+<td class="col-readings"><strong>OSC:</strong> Ch 4.1–4.4 (skip 4.4.1, 4.4.2, 4.4.3.1), 4.6.1–4.6.3<br><strong>OSTEP:</strong> Ch 26, Ch 27</td>
 </tr>
 
 <tr class="u-concurrency">
@@ -202,7 +202,7 @@ title: ""
 
 <tr class="u-review">
 <td class="col-day">Thu, Dec 03</td>
-<td class="col-lecture"><span class="label label-purple">Quiz 3</span></td>
+<td class="col-lecture"><span class="label label-purple">Quiz II</span></td>
 <td class="col-readings"></td>
 </tr>
 
