@@ -52,7 +52,7 @@ All assignments are submitted and graded on [Gradescope]({{ site.gradescope }}){
             </tr>
             <tr>
             <td>PA1B: A Unix-ish Shell</td>
-            <td>8 October 2026</td>
+            <td>10 October 2026</td>
             <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=391439" target="_blank">Material</a></td>
             </tr>
         </tbody>
