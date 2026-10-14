@@ -116,6 +116,12 @@ title: ""
 <td class="col-readings"></td>
 </tr>
 
+<tr class="u-concurrency recitation">
+<td class="col-day">Wed, Oct 14</td>
+<td class="col-lecture"><strong>Recitation: </strong><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=396016" target="_blank" rel="noopener"><i class="slides-icon" aria-label="Recitation Slides"></i></a></td>
+<td class="col-readings"></td>
+</tr>
+
 <tr class="u-review">
 <td class="col-day">Thu, Oct 15</td>
 <td class="col-lecture"><span class="label label-purple">Quiz I</span></td>
