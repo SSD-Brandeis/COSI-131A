@@ -130,7 +130,7 @@ title: ""
 
 <tr class="u-concurrency">
 <td class="col-day">Tue, Oct 20</td>
-<td class="col-lecture"><strong>Lecture 13:</strong> Synchronization 3: Java Default Synchronization</td>
+<td class="col-lecture"><strong>Lecture 13:</strong> Synchronization I<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=397280" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 6<br><strong>OSTEP:</strong> Ch 28, Ch 29</td>
 </tr>
 
