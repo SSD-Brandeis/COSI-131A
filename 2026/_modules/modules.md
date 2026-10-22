@@ -142,7 +142,7 @@ title: ""
 
 <tr class="u-concurrency">
 <td class="col-day">Thu, Oct 22</td>
-<td class="col-lecture"><strong>Lecture 14:</strong> Synchronization (4): Java general Locks and R&amp;W problem</td>
+<td class="col-lecture"><strong>Lecture 14:</strong> Synchronization II<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=397857" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 6<br><strong>OSTEP:</strong> Ch 30, Ch 29</td>
 </tr>
 
