@@ -55,9 +55,12 @@ All assignments are submitted and graded on [Gradescope]({{ site.gradescope }}){
             <td>10 October 2026</td>
             <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=391439" target="_blank">Material</a></td>
             </tr>
+            <tr>
+            <td>PA2A: City Processing Unit</td>
+            <td>28 October 2026</td>
+            <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=396722" target="_blank">Material</a></td>
+            </tr>
         </tbody>
         </table>
-        <h3><strong>PA1A: A Unix-ish Shell</strong></h3>
-        <p>Write a simplified Unix shell — a command-line interpreter that lets users interact with the operating system through a set of commands, each an independent executable program. With just a handful of basic commands, your shell will support file system operations like reading and writing files and directories, searching file content, and combining commands into larger compound commands.</p>
     </div>
 </div>
