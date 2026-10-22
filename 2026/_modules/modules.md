@@ -134,6 +134,12 @@ title: ""
 <td class="col-readings"><strong>OSC:</strong> Ch 6<br><strong>OSTEP:</strong> Ch 28, Ch 29</td>
 </tr>
 
+<tr class="u-concurrency recitation">
+<td class="col-day">Wed, Oct 21</td>
+<td class="col-lecture"><strong>Recitation: </strong><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=397610" target="_blank" rel="noopener"><i class="slides-icon" aria-label="Recitation Slides"></i></a></td>
+<td class="col-readings"></td>
+</tr>
+
 <tr class="u-concurrency">
 <td class="col-day">Thu, Oct 22</td>
 <td class="col-lecture"><strong>Lecture 14:</strong> Synchronization (4): Java general Locks and R&amp;W problem</td>
