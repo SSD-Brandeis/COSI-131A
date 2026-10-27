@@ -148,7 +148,7 @@ title: ""
 
 <tr class="u-concurrency">
 <td class="col-day">Tue, Oct 27</td>
-<td class="col-lecture"><strong>Lecture 15:</strong> Synchronization (5): Multiprocessors, Spinlocks, Performance</td>
+<td class="col-lecture"><strong>Lecture 15:</strong> Synchronization III<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=398907" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 6<br><strong>OSTEP:</strong> Ch 10, Ch 28</td>
 </tr>
 
