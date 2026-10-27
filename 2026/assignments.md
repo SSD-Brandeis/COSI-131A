@@ -57,7 +57,7 @@ All assignments are submitted and graded on [Gradescope]({{ site.gradescope }}){
             </tr>
             <tr>
             <td>PA2A: City Processing Unit</td>
-            <td>28 October 2026</td>
+            <td>30 October 2026</td>
             <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=396722" target="_blank">Material</a></td>
             </tr>
         </tbody>
