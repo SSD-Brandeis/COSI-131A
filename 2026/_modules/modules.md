@@ -152,6 +152,12 @@ title: ""
 <td class="col-readings"><strong>OSC:</strong> Ch 6<br><strong>OSTEP:</strong> Ch 10, Ch 28</td>
 </tr>
 
+<tr class="u-concurrency recitation">
+<td class="col-day">Wed, Oct 28</td>
+<td class="col-lecture"><strong>Recitation: </strong><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=399194" target="_blank" rel="noopener"><i class="slides-icon" aria-label="Recitation Slides"></i></a></td>
+<td class="col-readings"></td>
+</tr>
+
 <tr class="u-virt-mem">
 <td class="col-day">Thu, Oct 29</td>
 <td class="col-lecture"><strong>Lecture 16:</strong> Synchronization (6): Deadlock + Memory Management (1)</td>
