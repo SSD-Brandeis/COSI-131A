@@ -160,7 +160,7 @@ title: ""
 
 <tr class="u-virt-mem">
 <td class="col-day">Thu, Oct 29</td>
-<td class="col-lecture"><strong>Lecture 16:</strong> Synchronization (6): Deadlock + Memory Management (1)</td>
+<td class="col-lecture"><strong>Lecture 16:</strong> Synchronization IV<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=399391" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 7 Sec 4, Ch 8 / Ch 9 (skip 9.4.2–9.4.4, 9.6)<br><strong>OSTEP:</strong> Ch 32 / Ch 9 (skip 9.4.2–9.4.4, 9.6)</td>
 </tr>
 
