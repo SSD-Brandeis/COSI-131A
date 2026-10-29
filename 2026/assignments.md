@@ -24,12 +24,17 @@ All assignments are submitted and graded on [Gradescope]({{ site.gradescope }}){
             <tr>
             <td>PS1: Assembly</td>
             <td>14 September 2026</td>
-            <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=387909" target="_blank">Material</a></td>
+            <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=387909" target="_blank">Handout</a></td>
             </tr>
             <tr>
             <td>PS2: Interrupts & CPU Scheduling</td>
             <td>7 October 2026</td>
-            <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=393271" target="_blank">Material</a></td>
+            <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=393271" target="_blank">Handout</a></td>
+            </tr>
+            <tr>
+            <td>PS3: Synchronization & Deadlocks</td>
+            <td>8 November 2026</td>
+            <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=398693" target="_blank">Handout</a></td>
             </tr>
         </tbody>
         </table>
@@ -48,17 +53,17 @@ All assignments are submitted and graded on [Gradescope]({{ site.gradescope }}){
             <tr>
             <td>PA1A: A Unix-ish Shell</td>
             <td>18 September 2026</td>
-            <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=388827" target="_blank">Material</a></td>
+            <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=388827" target="_blank">Handout</a></td>
             </tr>
             <tr>
             <td>PA1B: A Unix-ish Shell</td>
             <td>10 October 2026</td>
-            <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=391439" target="_blank">Material</a></td>
+            <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=391439" target="_blank">Handout</a></td>
             </tr>
             <tr>
             <td>PA2A: City Processing Unit</td>
             <td>30 October 2026</td>
-            <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=396722" target="_blank">Material</a></td>
+            <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=396722" target="_blank">Handout</a></td>
             </tr>
         </tbody>
         </table>
