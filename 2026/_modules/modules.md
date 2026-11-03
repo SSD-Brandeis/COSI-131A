@@ -166,7 +166,7 @@ title: ""
 
 <tr class="u-virt-mem">
 <td class="col-day">Tue, Nov 03</td>
-<td class="col-lecture"><strong>Lecture 17:</strong> Memory Management (2)</td>
+<td class="col-lecture"><strong>Lecture 17:</strong> Deadlocks<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=400230" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 9 (skip 9.4.2–9.4.4, 9.6)<br><strong>OSTEP:</strong> Ch 16, Ch 17</td>
 </tr>
 
