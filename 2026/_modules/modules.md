@@ -178,7 +178,7 @@ title: ""
 
 <tr class="u-virt-mem">
 <td class="col-day">Thu, Nov 05</td>
-<td class="col-lecture"><strong>Lecture 18:</strong> Virtual Memory (1)</td>
+<td class="col-lecture"><strong>Lecture 18:</strong> Virtual Memory (1)<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=400726" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 10 (skip 10.4.5.2–10.4.8, 10.5.4, 10.7–end)<br><strong>OSTEP:</strong> Ch 15, Ch 18, Ch 19, Ch 20, Ch 21–22, Ch 23</td>
 </tr>
 
