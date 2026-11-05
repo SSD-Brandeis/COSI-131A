@@ -170,6 +170,12 @@ title: ""
 <td class="col-readings"><strong>OSC:</strong> Ch 9 (skip 9.4.2–9.4.4, 9.6)<br><strong>OSTEP:</strong> Ch 16, Ch 17</td>
 </tr>
 
+<tr class="u-virt-mem recitation">
+<td class="col-day">Wed, Nov 04</td>
+<td class="col-lecture"><strong>Recitation: </strong><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=400539" target="_blank" rel="noopener"><i class="slides-icon" aria-label="Recitation Slides"></i></a></td>
+<td class="col-readings"></td>
+</tr>
+
 <tr class="u-virt-mem">
 <td class="col-day">Thu, Nov 05</td>
 <td class="col-lecture"><strong>Lecture 18:</strong> Virtual Memory (1)</td>
