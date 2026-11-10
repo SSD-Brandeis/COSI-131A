@@ -184,7 +184,7 @@ title: ""
 
 <tr class="u-c">
 <td class="col-day">Tue, Nov 10</td>
-<td class="col-lecture"><strong>Lecture 19:</strong> C Basics: Translating Java to C (1)</td>
+<td class="col-lecture"><strong>Lecture 19:</strong> Memory Virtualization II<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=404692" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"></td>
 </tr>
 
