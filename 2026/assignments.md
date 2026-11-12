@@ -36,6 +36,11 @@ All assignments are submitted and graded on [Gradescope]({{ site.gradescope }}){
             <td>8 November 2026</td>
             <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=398693" target="_blank">Handout</a></td>
             </tr>
+            <tr>
+            <td>PS4: Memory Virtualization</td>
+            <td>23 November 2026</td>
+            <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=405146" target="_blank">Handout</a></td>
+            </tr>
         </tbody>
         </table>
     </div>
@@ -64,6 +69,11 @@ All assignments are submitted and graded on [Gradescope]({{ site.gradescope }}){
             <td>PA2A: City Processing Unit</td>
             <td>30 October 2026</td>
             <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=396722" target="_blank">Handout</a></td>
+            </tr>
+            <tr>
+            <td>PA2B: City Processing Unit</td>
+            <td>18 November 2026</td>
+            <td><a href="https://moodle.brandeis.edu/mod/resource/view.php?id=398692" target="_blank">Handout</a></td>
             </tr>
         </tbody>
         </table>
