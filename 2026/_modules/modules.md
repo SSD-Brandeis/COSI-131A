@@ -196,7 +196,7 @@ title: ""
 
 <tr class="u-c">
 <td class="col-day">Thu, Nov 12</td>
-<td class="col-lecture"><strong>Lecture 20:</strong> C Basics: Safety Risks and mitigations</td>
+<td class="col-lecture"><strong>Lecture 20:</strong> Virtual Memory<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=405149" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"></td>
 </tr>
 
