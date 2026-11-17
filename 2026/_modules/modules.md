@@ -202,7 +202,7 @@ title: ""
 
 <tr class="u-persistence">
 <td class="col-day">Tue, Nov 17</td>
-<td class="col-lecture"><strong>Lecture 21:</strong> Persistence (1): File Systems and Disk</td>
+<td class="col-lecture"><strong>Lecture 21:</strong> From Java to C<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=406727" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 11 (skip 11.4–end)<br><strong>OSTEP:</strong> Ch 37, Ch 39, Ch 40</td>
 </tr>
 
