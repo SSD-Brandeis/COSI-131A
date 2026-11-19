@@ -208,7 +208,7 @@ title: ""
 
 <tr class="u-persistence">
 <td class="col-day">Thu, Nov 19</td>
-<td class="col-lecture"><strong>Lecture 22:</strong> Persistence (2): Disk organization and File system data structures</td>
+<td class="col-lecture"><strong>Lecture 22:</strong> File Systems and Disks<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=407328" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
 <td class="col-readings"><strong>OSC:</strong> Ch 11 (skip 11.4–end)<br><strong>OSTEP:</strong> Ch 40, Ch 41, Ch 42</td>
 </tr>
 
