@@ -206,6 +206,12 @@ title: ""
 <td class="col-readings"><strong>OSC:</strong> Ch 11 (skip 11.4–end)<br><strong>OSTEP:</strong> Ch 37, Ch 39, Ch 40</td>
 </tr>
 
+<tr class="u-persistence recitation">
+<td class="col-day">Wed, Nov 18</td>
+<td class="col-lecture"><strong>Recitation: </strong><a href="https://moodle.brandeis.edu/pluginfile.php/503037/mod_folder/content/0/Recitation%2010.pdf" target="_blank" rel="noopener"><i class="slides-icon" aria-label="Recitation Slides"></i></a></td>
+<td class="col-readings"></td>
+</tr>
+
 <tr class="u-persistence">
 <td class="col-day">Thu, Nov 19</td>
 <td class="col-lecture"><strong>Lecture 22:</strong> File Systems and Disks<br><strong>Slides:</strong> <a href="https://moodle.brandeis.edu/mod/resource/view.php?id=407328" target="_blank" rel="noopener"><i class="lec-slides-icon" aria-label="Slides"></i></a></td>
